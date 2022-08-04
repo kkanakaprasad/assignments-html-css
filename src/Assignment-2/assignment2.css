@@ -1,7 +1,104 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    }
+    .header {
+        position: relative;
+
+    }
+    header {
+     width: 100%;
+     border: 1px solid black;
+     background-color: lightgreen;
+    
+    }
+    header, img, form {
+        display: inline-block;
+    }
+    .logo {
+        display: float;
+        float: left, center;
+        padding-left:25px;
+        padding-top: 5px;
+    }
+    form {
+        float: right;
+        padding-right:20px;
+        padding-top: 20px;
+        
+    }
+     nav {
+        width: 99%;
+        text-align: center;
+        margin: 1px;
+        border: 1px solid black;
+        
+    }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    
+    aside ul li {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .content-body {
+        position: relative;
+        display:block ;
+        width: 99%;
+        height: auto;
+        margin: 2px;
+        border: 1px solid black;
+    }
+    .left-sidebar, section, .right-sidebar {
+       
+        display: inline-block;
+        float: left;
+        width: 30%;
+        text-align: center;
+    }
+    .left-sidebar, .right-sidebar {
+        width:20%;
+        
+        
+    }
+        section {
+        width: 50%;
+        float: center;
+        display: inline-block;
+        border: 1px solid black;
+    }
+    .post-img {
+        width:150px;
+        height: 200px;
+        margin: 20px;
+    }
+    .footer {
+       
+        display: inline-block;
+        position: relative;
+        
+        padding: 15px 10px;
+        margin: 1px;
+        border: 1px solid black;
+    }
+    aside ul li {
+        margin-top: 20px;
+        margin-top: 20px;
+    }
+  p {
+    display: inline-block;
+  }  
+
+    
